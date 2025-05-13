@@ -38,3 +38,11 @@
     » 
     » 
 -->
+
+<!--
+    _____________TAGS PHP_____________
+    Tag Padrão » <?php ?> Habilitada
+    Tag De Impressão » <?= ?> Habilitada
+    Tag Curta » <? ?> Desabilitada
+    Asp Tag » <% %> Descontinuada
+-->
