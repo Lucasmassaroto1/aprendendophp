@@ -77,9 +77,30 @@
     <p>Peso: <?= $peso ?></p>
     <p>Fumante: <?= $fumante_sn ?></p> -->
     <!-- _____________AULA 9 CONCATENAÇÃO_____________ -->
-    
+    <!-- <?php 
+        $nome = 'Lucas';
+        $corfav = 'Azul';
+        $idade = 18;
+        $gosto = 'Jogar Elden Ring';
+        // Para concatenar utiliza Operador .
+        echo 'Olá '.$nome.', vi que sua cor favorita é '.$corfav.', estou vendo também que você possui '. $idade.' anos e que gosta de '.$gosto;
+        // Aspas Duplas
+        echo '<br>';
+        echo "Olá $nome vi que sua cor favorita é $corfav, estou vendo também que você possui $idade anos e que gosta de $gosto.";
+        // Aspas Simples
+        echo '<br>';
+        echo 'Olá $nome vi que sua cor favorita é $corfav, estou vendo também que você possui $idade anos e que gosta de $gosto.';
+    ?> -->
     <!-- _____________AULA 10 VARIÁVEIS CONSTANTES_____________ -->
+    <!-- <?php 
+        define('BD_URL', 'endereco_bd_dev');
+        define('BD_USUARIO', 'usuario_dev');
+        define('BD_SENHA', 'senha_dev');
 
+        echo BD_URL.'<br>';
+        echo BD_USUARIO.'<br>';
+        echo BD_SENHA.'<br>';
+    ?> -->
     <!-- _____________AULA 11 IF/ELSE PARTE 1 - INTRODUÇÃO_____________ -->
 
     <!-- _____________AULA 12 OPERADORES DE COMPARAÇÃO (CONDICIONAIS)_____________ -->

@@ -55,3 +55,27 @@
     # » Comentários De Uma Linha Estilo Shell
     / * * / » Comentário De Multiplas Linhas
 -->
+
+<!--
+    _____________VARIÁVEIS CONSTANTE_____________
+    »_____________AMBIENTE DE DESENVOLVIMENTO_____________
+    BD_URL » (Endereco_bd_dev)
+    BD_USUARIO » (Usuario_dev)
+    BD_SENHA » (Senha_dev)
+    »_____________AMBIENTE DE PRODUÇÃO_____________
+    BD_URL » (Endereco_bd_prod)
+    BD_USUARIO » (Usuario_prod)
+    BD_SENHA » (Senha_prod)
+    »_____________TEXTO_____________
+    »
+    » 
+    » 
+    » 
+    » 
+    »_____________TEXTO_____________
+    »
+    » 
+    » 
+    » 
+    » 
+-->
