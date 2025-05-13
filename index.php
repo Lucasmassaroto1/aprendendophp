@@ -8,33 +8,51 @@
 <body>
     <!-- _____________AULA 1 EMBUTINDO BLOCOS PHP EM PÁGINAS HTML _____________ -->
     <!--  <?php
-        echo "Usando Tag Padrão";
-    ?>
+        echo "Usando Tag Padrão"; 
+    ?> CONCLUIDO
     <br><hr>
     <?= 'Usando Tag de Impressão' ?> -->
     <!-- _____________AULA 2 HABILITANDO E TESTANDO TAGS CURTAS (SHORTS_OPEN_TAG)_____________ -->
     <!-- <br><hr>
-    <? echo 'Usando Tag Curta' ?>
+    <? echo 'Usando Tag Curta' ?> CONCLUIDO
     <br><hr> -->
     <!-- _____________AULA 3 SAÍDA DE DADOS COM ECHO() E PRINT()_____________ -->
-    <?php 
-        echo'helloo'
-    ?>
+    <!--    <?php 
+        echo 'Comando ECHO <br>';
+        print 'Comando PRINT <hr>';
+        echo print("Comando print");
+    ?> CONCLUIDO 
+    --> 
     <!-- _____________AULA 4 FUNCIONAMENTO DO PHP UM POUCO MAIS A FUNDO (PÁGINAS ESTÁTICAS X DINÂMICAS)_____________ -->
+    
     <!-- _____________AULA 5 COMENTÁRIOS_____________ -->
+    
     <!-- _____________AULA 6 VARIÁVEIS - INTRODUÇÃO_____________ -->
+
     <!-- _____________AULA 7 VARIÁVEIS - PRÁTICA (STRING, INT, FLOAT, E BOOLEAN)_____________ -->
+
     <!-- _____________AULA 8 ALTERANDO VALORES DE VARIÁVEIS_____________ -->
+
     <!-- _____________AULA 9 CONCATENAÇÃO_____________ -->
+
     <!-- _____________AULA 10 VARIÁVEIS CONSTANTES_____________ -->
+
     <!-- _____________AULA 11 IF/ELSE PARTE 1 - INTRODUÇÃO_____________ -->
+
     <!-- _____________AULA 12 OPERADORES DE COMPARAÇÃO (CONDICIONAIS)_____________ -->
+
     <!-- _____________AULA 12+1 IF/ELSE PARTE 2 - PRATICANDO COM OPERADORES DE COMPARAÇÃO_______ -->
+
     <!-- _____________AULA 14 OPERADORES LÓGICOS_____________ -->
+
     <!-- _____________AULA 15 IF/ELSE PARTE 3 - PRATICANDO COM OPERADORES LÓGICOS_____________ -->
+
     <!-- _____________AULA 16 IF/ELSE PARTE 4 - PRATICANDO UM POUCO MAIS_____________ -->
+
     <!-- _____________AULA 17 IF/ELSE PARTE 5 - CONDIÇÕES ENCADEADAS_____________ -->
+
     <!-- _____________AULA 18 OPERADORES TERNÁRIOS_____________ -->
+
     <!-- _____________AULA 19 SWITCH_____________ -->
     <!-- _____________AULA 20 SWITCH NA PRÁTICA_____________ -->
     <!-- _____________AULA 21 CASTING DE TIPOS COM (INT), (BOOL), (FLOAT), (STRING)_____________ -->
