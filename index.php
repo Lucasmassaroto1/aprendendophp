@@ -7,8 +7,19 @@
 </head>
 <body>
     <!-- _____________AULA 1 EMBUTINDO BLOCOS PHP EM PÁGINAS HTML _____________ -->
+    <!--  <?php
+        echo "Usando Tag Padrão";
+    ?>
+    <br><hr>
+    <?= 'Usando Tag de Impressão' ?> -->
     <!-- _____________AULA 2 HABILITANDO E TESTANDO TAGS CURTAS (SHORTS_OPEN_TAG)_____________ -->
+    <!-- <br><hr>
+    <? echo 'Usando Tag Curta' ?>
+    <br><hr> -->
     <!-- _____________AULA 3 SAÍDA DE DADOS COM ECHO() E PRINT()_____________ -->
+    <?php 
+        echo'helloo'
+    ?>
     <!-- _____________AULA 4 FUNCIONAMENTO DO PHP UM POUCO MAIS A FUNDO (PÁGINAS ESTÁTICAS X DINÂMICAS)_____________ -->
     <!-- _____________AULA 5 COMENTÁRIOS_____________ -->
     <!-- _____________AULA 6 VARIÁVEIS - INTRODUÇÃO_____________ -->
