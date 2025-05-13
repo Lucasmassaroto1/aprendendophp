@@ -79,3 +79,16 @@
     » 
     » 
 -->
+
+<!--
+    _____________OPERADORES DE COMPARAÇÃO_____________
+    == (Igual) » Verifica Se OS Valores Comparados São Iguais
+    === (Idêntico) » Verifica Se OS Valores Comparados São Iguais E Do Mesmo Tipo
+    != (Diferente) » Verifica Se OS Valores Comparados São Diferentes
+    <> (Diferente) » Verifica Se OS Valores Comparados São Diferentes
+    !== (Não Idêntico) » Verifica Se OS Valores Comparados São Diferentes E De Tipos Diferentes
+    < (Menor) » Verifica Se OS Valores Da Esquerda É Menor Que O Valor Da Direita 
+    > (Maior) » Verifica Se OS Valores Da Esquerda É Maior Que O Valor Da Direita
+    <= (Menor Igual) » Verifica Se OS Valores Da Esquerda É Menor Ou Igual Ao Valor Da Direita
+    >= (Maior Igual) » Verifica Se OS Valores Da Esquerda É Maior Ou Igual Ao Valor Da Direita
+-->
