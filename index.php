@@ -303,7 +303,19 @@
     <!-- _____________AULA 22 OPERADORES ARITMÉTICOS_____________ -->
     <!-- Concluida -->
     <!-- _____________AULA 23 PRATICANDO COM OPERADORES ARITMÉTICOS_____________ -->
-    
+    <!-- <?php 
+        $num1 = 13;
+        $num2 = 4;
+        echo "A soma entre $num1 e $num2 é ".($num1 + $num2);
+        echo '<br>';
+        echo "A subtração entre $num1 e $num2 é ".($num1 - $num2);
+        echo '<br>';
+        echo "A multiplicação entre $num1 e $num2 é ".($num1 * $num2);
+        echo '<br>';
+        echo "A divisão entre $num1 e $num2 é ".($num1 / $num2);
+        echo '<br>';
+        echo "O modulo entre $num1 e $num2 é ".($num1 % $num2);
+    ?> -->
     <!-- _____________AULA 24 OPERAÇÕES ARITMÉTICAS NA ATRIBUIÇÃO DE VALORES_____________ -->
     
     <!-- _____________AULA 25 OPERADORES DE INCREMENTO/DECREMENTO_____________ -->
