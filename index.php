@@ -265,7 +265,23 @@
         }
     ?> -->
     <!-- _____________AULA 20 SWITCH NA PRÁTICA_____________ -->
-    
+    <!--  <?php 
+        $parametro = 1;
+        switch($parametro){
+            case 1:
+                echo 'Entrou no case 1';
+                break;
+            case 2:
+                echo 'Entrou no case 2';
+                break;
+            case 3:
+                echo 'Entrou no case 3';
+                break;
+            default:
+                echo 'Entrou no default';
+                break;
+        }
+    ?> -->
     <!-- _____________AULA 21 CASTING DE TIPOS COM (INT), (BOOL), (FLOAT), (STRING)_____________ -->
     
     <!-- _____________AULA 22 OPERADORES ARITMÉTICOS_____________ -->
