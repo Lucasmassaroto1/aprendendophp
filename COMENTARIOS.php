@@ -100,3 +100,8 @@
     ! (Negação) » Inverte O Resultado Da Expressão
     Xor (XOR) » Verdadeiro Apenas Se Uma Expressão For Verdadeiro, Mas Não Ambas
 -->
+
+<!--
+    _____________OPERADORES TERNARIOS_____________
+    <Condição> ? T : F » 
+-->
