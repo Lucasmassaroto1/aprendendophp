@@ -301,7 +301,7 @@
         echo $valor3.' '.gettype($valor3);
     ?> -->
     <!-- _____________AULA 22 OPERADORES ARITMÉTICOS_____________ -->
-    
+    <!-- Concluida -->
     <!-- _____________AULA 23 PRATICANDO COM OPERADORES ARITMÉTICOS_____________ -->
     
     <!-- _____________AULA 24 OPERAÇÕES ARITMÉTICAS NA ATRIBUIÇÃO DE VALORES_____________ -->

@@ -122,3 +122,13 @@
     » int
     » string
 -->
+
+<!--
+    _____________OPERADORES ARITMÉTICOS_____________
+    + (Adição) » Soma Valores
+    - (Subtração) » Diferença Entre Valores
+    * (Multiplicação) » Produto Dos Valores
+    / (Divisão) » Quociente Dos Valores
+    % (Módulo) » Resto Existente Em Uma Operação De Divisão
+-->
+
