@@ -355,18 +355,23 @@
             echo 'O Valor atualizado o Pré-Decremento é '.$x;
         ?> -->
     <!-- _____________AULA 27 FUNÇÕES - INTRODUÇÃO_____________ -->
-    <!-- <?php 
-    function exibirBoasVindas(){
-        echo 'Bem-vindo ao PHP';
-    }
-
-    function calcularAreaTerreno($largura, $comprimento){
-        $area = $largura * $comprimento;
-        return $area;
-    }
-    ?> -->
+    <!-- Concluido -->
     <!-- _____________AULA 28 FUNÇÕES - PRÁTICA_____________ -->
-    
+    <!--  <?php 
+        function exibirBoasVindas(){
+            // FUNÇÃO VOID(Sem retorno)
+            echo 'Bem-vindo ao PHP<br>';
+        }
+        exibirBoasVindas();
+
+        function calcularAreaTerreno($largura, $comprimento){
+            // return(Com retorno)
+            $area = $largura * $comprimento;
+            return $area;
+        }
+        $res = calcularAreaTerreno(5, 25);
+        echo $res;
+    ?> -->
     <!-- _____________AULA 29 FUNÇÕES NATIVAS PARA MANIPULAR STRINGS_____________ -->
     
     <!-- _____________AULA 30 FUNÇÕES NATIVAS PARA TAREFAS MATEMATICAS_____________ -->
