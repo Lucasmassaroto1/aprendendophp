@@ -124,7 +124,29 @@
     <!-- _____________AULA 14 OPERADORES LÓGICOS_____________ -->
         <!-- Concluido -->
     <!-- _____________AULA 15 IF/ELSE PARTE 3 - PRATICANDO COM OPERADORES LÓGICOS_____________ -->
+    <!--  <?php 
+        // ==
+        // ===
+        // != || <>
+        // !==
+        // <
+        // >
+        // <=
+        // >=
 
+        // Operadores Lógicos
+        // E: && ou AND -> retorna verdadeiro se todos os resultados das expressões forem verdadeiro
+        // OU: || ou OR -> retorna verdadeiro se pelo menos um dos resultados das expressões forem verdadeiro
+        // XOR: XOR -> retorna verdadeiro se uma das expressões for verdadeiro && a outra for falsa || vice-versa
+        // ! -> Inverte os resultados das expressões
+        // () Estabelecer Precedência
+        // (V && V) = V || F = V
+        if((22 == 22 && 3 == 3 ) || 5 != 5){
+            echo"Verdade";
+        }else{
+            echo"Isso é FALSOOOOOO";
+        }
+    ?> -->
     <!-- _____________AULA 16 IF/ELSE PARTE 4 - PRATICANDO UM POUCO MAIS_____________ -->
 
     <!-- _____________AULA 17 IF/ELSE PARTE 5 - CONDIÇÕES ENCADEADAS_____________ -->
