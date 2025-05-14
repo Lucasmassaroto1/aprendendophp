@@ -106,9 +106,25 @@
     <!-- _____________AULA 12 OPERADORES DE COMPARAÇÃO (CONDICIONAIS)_____________ -->
     <!-- Concluido -->
     <!-- _____________AULA 12+1 IF/ELSE PARTE 2 - PRATICANDO COM OPERADORES DE COMPARAÇÃO_______ -->
-    
+    <!-- <?php
+        // ==
+        // ===
+        // != || <>
+        // !==
+        // <
+        // >
+        // <=
+        // >=
+        if(3 >= 2){
+            echo"Verdade";
+        }else{
+            echo"Isso é FALSOOOOOO";
+        }
+    ?> -->
     <!-- _____________AULA 14 OPERADORES LÓGICOS_____________ -->
-
+        <?php 
+        
+        ?>
     <!-- _____________AULA 15 IF/ELSE PARTE 3 - PRATICANDO COM OPERADORES LÓGICOS_____________ -->
 
     <!-- _____________AULA 16 IF/ELSE PARTE 4 - PRATICANDO UM POUCO MAIS_____________ -->
