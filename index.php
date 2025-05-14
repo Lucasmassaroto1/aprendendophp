@@ -317,7 +317,14 @@
         echo "O modulo entre $num1 e $num2 é ".($num1 % $num2);
     ?> -->
     <!-- _____________AULA 24 OPERAÇÕES ARITMÉTICAS NA ATRIBUIÇÃO DE VALORES_____________ -->
-    
+    <!-- <?php 
+        $x = 10;
+        $y = 8;
+
+        $x %= $y;
+
+        echo $x;
+    ?> -->
     <!-- _____________AULA 25 OPERADORES DE INCREMENTO/DECREMENTO_____________ -->
     
     <!-- _____________AULA 26 PRATICANDO COM OPERADORES DE INCREMENTO/DECREMENTO_____________ -->

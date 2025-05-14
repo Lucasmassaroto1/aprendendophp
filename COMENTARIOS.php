@@ -132,3 +132,12 @@
     % (Módulo) » Resto Existente Em Uma Operação De Divisão
 -->
 
+<!--
+    _____________OPERADORES ARITMÉTICOS NA ATRIBUIÇÃO DE VALORES_____________
+    += (Adiciona E Atribui) » Soma Os Valores E Atruibui
+    -= (Subtrai E Atribui) » Subtrai Os Valores E Atruibui
+    *= (Multiplica E Atribui) » Multiplica Os Valores E Atruibui
+    /= (Divisão E Atribui) » Divide Os Valores E Atruibui
+    %= (Módulo E Atribui) » Resto Existente Dos Valores E Atruibui
+-->
+
