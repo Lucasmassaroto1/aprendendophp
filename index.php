@@ -283,7 +283,23 @@
         }
     ?> -->
     <!-- _____________AULA 21 CASTING DE TIPOS COM (INT), (BOOL), (FLOAT), (STRING)_____________ -->
-    
+    <!-- <?php 
+        //gettype() => tipo da variavel
+        $valor = false;
+        //$valor2 = (float) $valor; // float || double
+        //$valor2 = (int) $valor; // int || integer
+        //$valor2 = (string) $valor;
+        //$valor2 = (boolean) $valor; // int || float || boolean, bool
+        $valor2 = (string) $valor; // int || string
+        $valor3 = (int) $valor2; // int || string
+
+
+        echo $valor.' '.gettype($valor);
+        echo '<br>';
+        echo $valor2.' '.gettype($valor2);
+        echo '<br>';
+        echo $valor3.' '.gettype($valor3);
+    ?> -->
     <!-- _____________AULA 22 OPERADORES ARITMÉTICOS_____________ -->
     
     <!-- _____________AULA 23 PRATICANDO COM OPERADORES ARITMÉTICOS_____________ -->

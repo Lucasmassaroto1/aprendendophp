@@ -105,3 +105,20 @@
     _____________OPERADORES TERNARIOS_____________
     <Condição> ? T : F » 
 -->
+
+<!--
+    _____________CASTING DE TIPOS:_____________
+    »_____________INT_____________
+    » float
+    » string
+    »_____________string_____________
+    » int
+    » float
+    » boolean
+    »_____________float_____________
+    » int
+    » string
+    »_____________boolean_____________
+    » int
+    » string
+-->
