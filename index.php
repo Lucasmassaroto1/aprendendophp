@@ -373,7 +373,34 @@
         echo $res;
     ?> -->
     <!-- _____________AULA 29 FUNÇÕES NATIVAS PARA MANIPULAR STRINGS_____________ -->
-    
+    <!-- <?php 
+        $texto = 'Estudando Programação PHP';
+        //String To Lower
+        echo $texto. '<br>';
+        echo strtolower($texto). '<br>';
+        echo '<hr>';
+        //String To Upper
+        echo $texto. '<br>';
+        echo strtoupper($texto). '<br>';
+        echo '<hr>';
+        //upper case first
+        echo $texto. '<br>';
+        echo ucfirst($texto). '<br>';
+        echo '<hr>';
+        //string length
+        echo $texto. '<br>';
+        echo strlen($texto). '<br>';
+        echo '<hr>';
+        //string replace
+        echo $texto. '<br>';
+        echo str_replace('PHP', 'Linguagem De Programação PHP', $texto). '<br>';
+        echo '<hr>';
+        //string replace
+        echo $texto. '<br>';
+        //'Estudando PHP'
+        echo substr($texto, '1', 8). '<br>';
+        echo '<hr>';
+    ?> -->
     <!-- _____________AULA 30 FUNÇÕES NATIVAS PARA TAREFAS MATEMATICAS_____________ -->
     
     <!-- _____________AULA 31 FUNÇÕES NATIVAS PARA MANIPULAR DATAS_____________ -->

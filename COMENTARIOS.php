@@ -148,3 +148,13 @@
     ++$x (Pré-Incremento) » Adiciona Uma Unidade Antes De Retornar $x
     --$x (Pré-Decremento) » Diminui Uma Unidade Antes De Retornar $x
 -->
+
+<!--
+    _____________FUNÇÕES NATIVAS PARA MANIPULAR STRINGS_____________
+    strtolower($texto) » Transforma Todos Os Caracteres Da String Em Minúsculos
+    strtoupper($texto) » Transforma Todos Os Caracteres Da String Em Maiúsculos
+    ucfirst($texto) » Transforam O Primeiro Caracter Da String Em Maiúsculo
+    strlen($texto) » Conta A Quantidade De Caracteres De Uma String
+    str_replace(<procura por>, <substitui por>, $texto) » Substitui Uma Cadeia De Caracteres Por Outra Dentro De Uma String
+    substr($texto, <posicao inicial>, <qtde caracteres>) » Retorna Parte De Uma String
+-->
