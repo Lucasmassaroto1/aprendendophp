@@ -328,7 +328,32 @@
     <!-- _____________AULA 25 OPERADORES DE INCREMENTO/DECREMENTO_____________ -->
     <!-- Concluido -->
     <!-- _____________AULA 26 PRATICANDO COM OPERADORES DE INCREMENTO/DECREMENTO_____________ -->
-    
+        <!-- <h3>Pós-Incremento</h3>
+        <?php 
+            $x = 7;
+
+            echo "O Valor contido em X é $x <br>";
+            echo 'O Valor contido em X Pós-Incremento é '.$x++. ' <br>';
+            echo 'O Valor atualizado Pós-Incremento é '.$x;      
+        ?>
+        <h3>Pré-Incremento</h3>
+        <?php
+            echo "O Valor contido em X é $x <br>";
+            echo 'O Valor contido em X Pré-Incremento é '.++$x. ' <br>';
+            echo 'O Valor atualizado o Pré-Incremento é '.$x;
+        ?>
+        <h3>Pós-Incremento</h3>
+        <?php
+            echo "O Valor contido em X é $x <br>";
+            echo 'O Valor contido em X Pós-Decremento é '.$x--. ' <br>';
+            echo 'O Valor atualizado Pós-Decremento é '.$x;
+        ?>
+        <h3>Pré-Decremento</h3>
+        <?php
+            echo "O Valor contido em X é $x <br>";
+            echo 'O Valor contido em X Pré-Decremento é '.--$x. ' <br>';
+            echo 'O Valor atualizado o Pré-Decremento é '.$x;
+        ?> -->
     <!-- _____________AULA 27 FUNÇÕES - INTRODUÇÃO_____________ -->
     
     <!-- _____________AULA 28 FUNÇÕES - PRÁTICA_____________ -->
