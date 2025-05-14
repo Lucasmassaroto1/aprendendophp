@@ -141,3 +141,10 @@
     %= (Módulo E Atribui) » Resto Existente Dos Valores E Atruibui
 -->
 
+<!--
+    _____________OPERADORES INCREMENTO/DECREMENTO_____________
+    $x++ (Pós-Incremento) » Retorna $x E Depois Adiciona Uma Unidade
+    $x-- (Pós-Decremento) » Retorna $x E Depois Diminui Uma Unidade
+    ++$x (Pré-Incremento) » Adiciona Uma Unidade Antes De Retornar $x
+    --$x (Pré-Decremento) » Diminui Uma Unidade Antes De Retornar $x
+-->
