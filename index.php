@@ -249,7 +249,21 @@
             </p>
             <p>Valor do frete: <?= $valor_frete?></p> -->
     <!-- _____________AULA 19 SWITCH_____________ -->
-    
+    <!-- <?php 
+        $opcao = 2;
+
+        switch($opcao){
+            case 1:
+                // Codigo Aqui
+                break;
+            case 2:
+                // Codigo Aqui
+                break;
+            default:
+                // Codigo Aqui
+                break;
+        }
+    ?> -->
     <!-- _____________AULA 20 SWITCH NA PRÁTICA_____________ -->
     
     <!-- _____________AULA 21 CASTING DE TIPOS COM (INT), (BOOL), (FLOAT), (STRING)_____________ -->
