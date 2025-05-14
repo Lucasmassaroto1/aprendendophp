@@ -92,3 +92,11 @@
     <= (Menor Igual) » Verifica Se OS Valores Da Esquerda É Menor Ou Igual Ao Valor Da Direita
     >= (Maior Igual) » Verifica Se OS Valores Da Esquerda É Maior Ou Igual Ao Valor Da Direita
 -->
+
+<!--
+    _____________OPERADORES LÓGICOS_____________
+    && (E) » Verdadeiro Se Todas As Expressões Forem Verdadeiras
+    || (OU) » Verdadeiro Se Pelo Menos Uma Das Expressões For Verdadeira
+    ! (Negação) » Inverte O Resultado Da Expressão
+    Xor (XOR) » Verdadeiro Apenas Se Uma Expressão For Verdadeiro, Mas Não Ambas
+-->

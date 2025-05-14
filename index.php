@@ -122,9 +122,7 @@
         }
     ?> -->
     <!-- _____________AULA 14 OPERADORES LÓGICOS_____________ -->
-        <?php 
-        
-        ?>
+        <!-- Concluido -->
     <!-- _____________AULA 15 IF/ELSE PARTE 3 - PRATICANDO COM OPERADORES LÓGICOS_____________ -->
 
     <!-- _____________AULA 16 IF/ELSE PARTE 4 - PRATICANDO UM POUCO MAIS_____________ -->
