@@ -487,7 +487,17 @@
         
     ?> -->
     <!-- _____________AULA 34 ARRAY MULTIDIMENSIONAL_____________ -->
-    
+    <!-- <?php 
+        $lista_coisas = [];
+        $lista_coisas['frutas'] = [1 => 'Banana', 2 => 'Maçã', 3 => 'Morango', 4 => 'Uva'];
+        $lista_coisas['pessoas'] = [1 => 'Lucas', 2 => 'Arthur', 3 => 'Gab'];
+
+        echo '<pre>';
+            print_r($lista_coisas);
+        echo '<pre>';
+        echo '<hr>';
+        echo $lista_coisas['pessoas'][1];
+    ?> -->
     <!-- _____________AULA 35 ARRAY - MÉTODOS DE PESQUISA_____________ -->
     
     <!-- _____________AULA 36 EXTRA - FALSE, NULL E EMPTY_____________ -->
