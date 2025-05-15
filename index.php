@@ -525,7 +525,51 @@
         echo in_array('Uva', $lista_coisas['frutas']);
     ?> -->
     <!-- _____________AULA 36 EXTRA - FALSE, NULL E EMPTY_____________ -->
-    
+    <!-- <?php 
+        // False (T/F) -> tipo de variavel boolean
+        // null e empty -> valores especiais
+
+        $funcionario1 = null;
+        $funcionario2 = '';
+        $funcionario3 = false;
+        //valores null
+        if(is_null($funcionario1)){
+            echo 'Esta variavel é NULL';
+        }else{
+            echo 'Esta variavel não é null';
+        }
+        echo '<br>';
+        if(is_null($funcionario2)){
+            echo 'Esta variavel é null';
+        }else{
+            echo 'Esta variavel não é null';
+        }
+        echo '<br>';
+        if(is_null($funcionario3)){
+            echo 'Esta variavel é null';
+        }else{
+            echo 'Esta variavel não é null';
+        }
+        //Valores empty
+        echo '<br>';
+        if(empty($funcionario1)){
+            echo 'Esta variavel é EMPTY';
+        }else{
+            echo 'Esta variavel não é EMPTY';
+        }
+        echo '<br>';
+        if(empty($funcionario2)){
+            echo 'Esta variavel é EMPTY';
+        }else{
+            echo 'Esta variavel não é EMPTY';
+        }
+        echo '<br>';
+        if(empty($funcionario3)){
+            echo 'Esta variavel é EMPTY';
+        }else{
+            echo 'Esta variavel não é EMPTY';
+        }
+    ?> -->
     <!-- _____________AULA 37 FUNÇÕES NATIVAS PARA MANIPULAR ARRAYS_____________ -->
     
     <!-- _____________AULA 38 LOOPS PARTE 1 - INTRODUÇÃO_____________ -->
