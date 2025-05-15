@@ -461,7 +461,31 @@
     <!-- _____________AULA 32 ARRAY BÁSICO - INTRODUÇÃO_____________ -->
     <!-- Concluido -->
     <!-- _____________AULA 33 ARRAY BÁSICO - PRÁTICA_____________ -->
-    
+    <!-- <?php
+        // Tipos de ARRAY:
+        // sequenciais(numéricos)
+        $lista_frutas = array('Banana', 'Maçã', 'Morango', 'Uva');
+        $lista_frutas = ['Banana', 'Maçã', 'Morango', 'Uva'];
+        $lista_frutas[] = 'Abacaxi';
+        
+        echo '<pre>';
+            var_dump($lista_frutas);//BLOCO DE RECURSOS DE TESTES
+        echo '<pre>';
+        echo '<hr>'; 
+            print_r($lista_frutas);
+        echo '<pre>'; 
+        
+        echo $lista_frutas[2];
+        
+        // associativos
+        $lista_frutas = ['a' => 'Banana', 'b' => 'Maçã', 'c' => 'Morango', '2' => 'Uva'];
+        $lista_frutas['w'] = 'Abacate';
+        echo '<pre>';
+            var_dump($lista_frutas);
+        echo '<pre>';
+        echo $lista_frutas['w']; 
+        
+    ?> -->
     <!-- _____________AULA 34 ARRAY MULTIDIMENSIONAL_____________ -->
     
     <!-- _____________AULA 35 ARRAY - MÉTODOS DE PESQUISA_____________ -->
