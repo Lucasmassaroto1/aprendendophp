@@ -499,7 +499,31 @@
         echo $lista_coisas['pessoas'][1];
     ?> -->
     <!-- _____________AULA 35 ARRAY - MÉTODOS DE PESQUISA_____________ -->
-    
+    <!-- <?php 
+        // in_array() -> T || F P/ a existência do que está sendo procurado
+        // array_search() -> Retorna o indice do valor pesquisado, caso ele exista
+        $lista_frutas = ['Banana', 'Maçã', 'Morango', 'Uva'];
+        echo '<pre>';
+            print_r($lista_frutas);
+        echo '</pre>';
+        
+        //$existe = in_array('Banana', $lista_frutas); // T -> texto = 1 || F -> texto = vazio
+
+        $existe = array_search('Uva', $lista_frutas);
+        if($existe != null){
+            echo 'Este produto existe';
+        }else{
+            echo 'Este Produto Não Existe';
+        }
+
+        $lista_coisas = ['frutas' => $lista_frutas, 'pessoas' => ['Lucas', 'Arthur', 'Gab']];
+
+        echo '<pre>';
+            print_r($lista_coisas);
+        echo '</pre>';
+        
+        echo in_array('Uva', $lista_coisas['frutas']);
+    ?> -->
     <!-- _____________AULA 36 EXTRA - FALSE, NULL E EMPTY_____________ -->
     
     <!-- _____________AULA 37 FUNÇÕES NATIVAS PARA MANIPULAR ARRAYS_____________ -->
