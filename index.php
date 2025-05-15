@@ -416,7 +416,48 @@
         echo sqrt($numero); // Retorna Raiz Quadrada
     ?> -->
     <!-- _____________AULA 31 FUNÇÕES NATIVAS PARA MANIPULAR DATAS_____________ -->
+    <!-- <?php 
+    /* // Recuperação da data atual / datas corrente
+    echo date('d/m/y'); // d/m/y
+    echo '<br>';
+    echo date('d/m/Y'); // d/m/Y
+    echo '<br>';
+    echo date('D/M/Y'); // D/M/Y
+    echo '<br>';
+    echo date('d/m/Y H:i'); // d/m/Y || H:i
+    //TIMEZONES
+    echo '<br>';
+    echo date_default_timezone_get();
+    echo '<br>';
+    //date_default_timezone_set('America/Sao_Paulo');
+    echo date('d/m/Y H:i') */
+
+    // Calculos Entre Datas
+    $data_inicial = '2025-04-24';
+    $data_final = '2025-05-15';
+    //timestamp
+    //01/01/1970
+    $time_inicial = strtotime($data_inicial);
+    $time_final = strtotime($data_final);
+    echo $data_inicial.' - '.$time_inicial;
+    echo '<br>';
+    echo $data_final.' - '.$time_final;
+
+    $diferenca_times = $time_final - $time_inicial; //abs
+
+    echo '<br>';
+    echo 'A diferença de segundos entre a data inicial e final é '.$diferenca_times;
     
+    $segundos_existem_dias = 24 * 60 * 60;
+    
+    echo '<br>';
+    echo 'Um dia possui '.$segundos_existem_dias.' segundos';
+
+    $diferenca_de_dias_entre_datas = $diferenca_times / $segundos_existem_dias;
+
+    echo '<br>';
+    echo 'A diferença em dias é: '.$diferenca_de_dias_entre_datas;
+    ?> -->
     <!-- _____________AULA 32 ARRAY BÁSICO - INTRODUÇÃO_____________ -->
     
     <!-- _____________AULA 33 ARRAY BÁSICO - PRÁTICA_____________ -->

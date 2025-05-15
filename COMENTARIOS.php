@@ -167,3 +167,11 @@
     rand() » Gera Um Inteiro Aleatorio
     sqrt($numero) » Retorna A Raiz Quadrada
 -->
+
+<!--
+    _____________FUNÇÕES NATIVAS PARA MANIPULAR DATAS_____________
+    date(formato) » Recupera A Data Atual
+    date_default_timezone_get(timezone) » Recupera O Timezone Default Da Aplicação
+    date_default_timezone_set(timezone) » Atualiza O Timezone Default Da Aplicação
+    strtotime() » Transformar Datas Textuais Em Segundos
+-->
