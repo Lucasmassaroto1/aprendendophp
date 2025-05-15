@@ -158,3 +158,12 @@
     str_replace(<procura por>, <substitui por>, $texto) » Substitui Uma Cadeia De Caracteres Por Outra Dentro De Uma String
     substr($texto, <posicao inicial>, <qtde caracteres>) » Retorna Parte De Uma String
 -->
+
+<!--
+    _____________FUNÇÕES NATIVAS PARA TAREFAS MATEMÁTICAS_____________
+    ceil($numero) » Arredonda O Valor Para Cima
+    floor($numero) » Arredonda O Valor Para Baixo
+    round($numero) » Arredonda O Valor Com Base Nas Casas Decimais
+    rand() » Gera Um Inteiro Aleatorio
+    sqrt($numero) » Retorna A Raiz Quadrada
+-->

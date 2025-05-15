@@ -402,7 +402,19 @@
         echo '<hr>';
     ?> -->
     <!-- _____________AULA 30 FUNÇÕES NATIVAS PARA TAREFAS MATEMATICAS_____________ -->
-    
+    <!-- <?php 
+        $numero = 7.3;
+        echo ceil($numero); // Aredonda para cima
+        echo '<br>';
+        echo floor($numero); // Arredonda para baixo
+        echo '<br>';
+        echo round($numero); // Arredonda com base na fração
+        echo '<br>';
+        echo rand(); // Gera um inteiro aleatorio
+        echo '<br>'.getrandmax();
+        echo '<br>';
+        echo sqrt($numero); // Retorna Raiz Quadrada
+    ?> -->
     <!-- _____________AULA 31 FUNÇÕES NATIVAS PARA MANIPULAR DATAS_____________ -->
     
     <!-- _____________AULA 32 ARRAY BÁSICO - INTRODUÇÃO_____________ -->
