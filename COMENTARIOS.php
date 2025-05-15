@@ -175,3 +175,15 @@
     date_default_timezone_set(timezone) » Atualiza O Timezone Default Da Aplicação
     strtotime() » Transformar Datas Textuais Em Segundos
 -->
+
+<!--
+    _____________FUNÇÕES NATIVAS PARA MANIPULAR ARRAYS_____________
+    is_array(array) » Verifica Se O Parametro É Um Array
+    array_keys(array) » Retorna Todas As Chaves De Um Array
+    sort(array) » Ordena Um Array E Reajusta Seus Indices
+    asort(array) » Ordena Um Array Preservando Os Indices
+    count(array) » Conta A Quantidade De Elementos de Um Array
+    array_merge(array) » Funde Um Ou Mais Arrays
+    explode(array) » Divide Uma String Baseada Em Um Delimitador
+    implode(array) » Junta Elementos De Um Array Em Uma String
+-->
