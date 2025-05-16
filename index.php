@@ -648,7 +648,19 @@
         echo 'Fim Loop';
     ?> -->
     <!-- _____________AULA 40 LOOPS PARTE 3 - DO WHILE_____________ -->
-    
+    <!-- <?php 
+        $x = 1;
+        do{
+            echo "X = $x <br>";
+            $x++; // Criterio de parada
+            //break;
+            //continue;
+        }while($x < 9);
+        echo '<br>';
+        while($x < 9){
+            echo 'Entrou nowhile';
+        }
+    ?> -->
     <!-- _____________AULA 41 LOOPS PARTE 4 - FOR_____________ -->
     
     <!-- _____________AULA 42 PRATICANDO UM POUCO - PERCORRENDO ARRAYS COM WHILE, DO WHILE E FOR_____________ -->
