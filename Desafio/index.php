@@ -28,12 +28,12 @@
                         Login
                     </div>
                     <div class="card-body">
-                        <form>
+                        <form action="valida_login.php" method="POST">
                             <div class="form-group">
-                                <input type="email" class="form-control" placeholder="E-mail">
+                                <input name="email" type="email" class="form-control" placeholder="E-mail">
                             </div>
                             <div class="form-group">
-                                <input type="password" class="form-control" placeholder="Senha">
+                                <input type="password" name="senha" class="form-control" placeholder="Senha">
                             </div>
                             <button type="submit" class="btn btn-lg btn-info btn-block">Entrar</button>
                         </form>
