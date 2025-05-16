@@ -721,7 +721,22 @@
         }
     ?> -->
     <!-- _____________AULA 44 PRATICANDO UM POUCO - FOREACH EM ARRAYS ASSOCIATIVOS E FOEACH ENCADEADOS_____________ -->
-    
+    <!-- <?php 
+        $funcionarios = [
+            ['nome' => 'João', 'salario' => 2500, 'data_nascimento' => '06/03/1970'],
+            ['nome' => 'Maria', 'salario' => 3000], 
+            ['nome' => 'Júlia', 'salario' => 2200]
+        ];
+        echo '<pre>';
+            print_r($funcionarios);
+        echo '</pre>';
+        foreach($funcionarios as $idx => $funcionario){
+            foreach($funcionario as $idx2 => $valor){
+                echo "$idx2 - $valor <br>";
+            }
+            echo '<hr>';
+        }
+    ?> -->
     <!-- _____________AULA 45 APP HELP DASK - INSTRUÇÕES GERAIS_____________ -->
     
     <!-- _____________AULA 46 APP HELP DASK - INTRODUÇÃO_____________ -->
