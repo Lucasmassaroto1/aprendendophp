@@ -674,7 +674,38 @@
         }
     ?> -->
     <!-- _____________AULA 42 PRATICANDO UM POUCO - PERCORRENDO ARRAYS COM WHILE, DO WHILE E FOR_____________ -->
-    
+    <!-- <?php 
+        $registros =[
+            ['titulo' => 'Título notícia 1', 'conteudo' => 'Conteúdo notícia 1'],
+            ['titulo' => 'Título notícia 2', 'conteudo' => 'Conteúdo notícia 2'],
+            ['titulo' => 'Título notícia 3', 'conteudo' => 'Conteúdo notícia 3'],
+            ['titulo' => 'Título notícia 4', 'conteudo' => 'Conteúdo notícia 4']
+        ];
+        echo '<pre>';
+            print_r($registros);
+        echo '</pre>';
+        echo '<br>';
+        echo 'O array possui: '.count($registros).' registros';
+        echo '<br>';
+        // $idx = 0;
+        while($idx < count($registros)){
+            echo '<h3>'.$registros[$idx]['titulo']. '</h3>';
+            echo '<p>'.$registros[$idx]['conteudo']. '</p>';
+            echo '<hr>';
+            $idx++;
+        }
+        do{
+            echo '<h3>'.$registros[$idx]['titulo']. '</h3>';
+            echo '<p>'.$registros[$idx]['conteudo']. '</p>';
+            echo '<hr>';
+            $idx++;
+        }while($idx < count($registros));
+        for($idx = 0; $idx < count($registros); $idx++){
+            echo '<h3>'.$registros[$idx]['titulo']. '</h3>';
+            echo '<p>'.$registros[$idx]['conteudo']. '</p>';
+            echo '<hr>';
+        }
+    ?> -->
     <!-- _____________AULA 43 LOOPS PARTE 5 - FOREACH_____________ -->
     
     <!-- _____________AULA 44 PRATICANDO UM POUCO - FOREACH EM ARRAYS ASSOCIATIVOS E FOEACH ENCADEADOS_____________ -->
