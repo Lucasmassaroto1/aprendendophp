@@ -707,7 +707,19 @@
         }
     ?> -->
     <!-- _____________AULA 43 LOOPS PARTE 5 - FOREACH_____________ -->
-    
+    <!-- <?php 
+        $itens =['sofá', 'mesa', 'cadeira', 'fogão', 'geladeira'];
+        echo '<pre>';
+            print_r($itens);
+        echo '</pre>';
+        foreach($itens as $item){
+            echo "$item ";
+            if($item == 'mesa'){
+                echo ' (*Compre uma mesa e ganhe 25% de desconto na compra de 4 cadeiras)';
+            }
+            echo'<br>';
+        }
+    ?> -->
     <!-- _____________AULA 44 PRATICANDO UM POUCO - FOREACH EM ARRAYS ASSOCIATIVOS E FOEACH ENCADEADOS_____________ -->
     
     <!-- _____________AULA 45 APP HELP DASK - INSTRUÇÕES GERAIS_____________ -->
