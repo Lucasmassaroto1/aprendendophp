@@ -630,7 +630,23 @@
     <!-- _____________AULA 38 LOOPS PARTE 1 - INTRODUÇÃO_____________ -->
     <!-- Concluido -->
     <!-- _____________AULA 39 LOOPS PARTE 2 - WHILE_____________ -->
-    
+    <!-- <?php
+        $num = 1;
+        //Operadores de comparação || Lógicos
+        echo 'Inicio Loop <br>';
+        while($num < 10){
+            $num++; // Criterio de parada
+            if($num == 2 || $num == 6){
+                continue;
+            }
+            echo $num.'<br>';
+            if($num > 10){
+                break;
+            }
+            
+        }
+        echo 'Fim Loop';
+    ?> -->
     <!-- _____________AULA 40 LOOPS PARTE 3 - DO WHILE_____________ -->
     
     <!-- _____________AULA 41 LOOPS PARTE 4 - FOR_____________ -->
