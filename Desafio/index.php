@@ -1,3 +1,8 @@
+<?php 
+    if(isset($_GET['login'])){
+        echo($_GET['login']);
+    }
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
