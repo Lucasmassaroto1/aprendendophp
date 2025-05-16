@@ -662,7 +662,17 @@
         }
     ?> -->
     <!-- _____________AULA 41 LOOPS PARTE 4 - FOR_____________ -->
-    
+    <!-- <?php 
+        // FOR -> Variavel; Condicao; Incremento
+        for($x = 1; $x <= 10; $x++){
+            echo $x.'<br>';
+        }
+        for($x = 11; $x > 0; $x--){
+                //break;
+                //continue;
+            echo $x.'<br>';
+        }
+    ?> -->
     <!-- _____________AULA 42 PRATICANDO UM POUCO - PERCORRENDO ARRAYS COM WHILE, DO WHILE E FOR_____________ -->
     
     <!-- _____________AULA 43 LOOPS PARTE 5 - FOREACH_____________ -->
