@@ -758,7 +758,7 @@
     <!-- _____________AULA 54 APP HELP DESK - ENCERRANDO SESSÃO (LOGOFF)_____________ -->
     <!-- Concluido -->
     <!-- _____________AULA 55 APP HELP DESK - REGISTRANDO CHAMADOS_____________ -->
-    
+    <!-- Concluido -->
     <!-- _____________AULA 56 APP HELP DESK - CONSULTANDO CHAMADOS_____________ -->
     
     <!-- _____________AULA 57 APP HELP DESK - APLICANDO CONTROLE DE PERFIL DE USUÁRIO_____________ -->
