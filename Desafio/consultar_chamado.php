@@ -3,7 +3,7 @@
     // Chamados
     $chamados = [];
     // Abrir o arquivo.txt
-    $arquivo = fopen('arquivo.txt', 'r');
+    $arquivo = fopen('app_help_desk/arquivo.txt', 'r');
     // Enquanto Houver Registros || Linhas a serem recuperados
     while(!feof($arquivo)){ // testa pelo fim de um arquivo
         //linhas 
