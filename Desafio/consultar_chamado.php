@@ -45,7 +45,7 @@
                         </div>
                         <div class="row mt-5">
                             <div class="col-6">
-                                <button type="submit" class="btn btn-lg btn-warning btn-block">Voltar</button>
+                                <a href="home.php" class="btn btn-lg btn-warning btn-block">Voltar</a>
                             </div>
                         </div>
                     </div>
