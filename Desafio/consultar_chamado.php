@@ -6,8 +6,21 @@
     $arquivo = fopen('arquivo.txt', 'r');
     // Enquanto Houver Registros || Linhas a serem recuperados
     while(!feof($arquivo)){ // testa pelo fim de um arquivo
+        //linhas 
         $registro = fgets($arquivo);
-        $chamados[] = $registro;
+        //explode dos detalhes do registro para verificar o id do usuário responsável pelo cadastro
+        $registro_detalhes = explode('#', $registro);
+        //(perfil id = 2) só vamos exibir o chamado, se ele foi criado pelo usuário
+        if($_SESSION['perfil_id'] == 2){
+           //se usuário autenticado não for o usuário de abertura do chamado então não faz nada
+            if($_SESSION['id'] != $registro_detalhes[0]){
+                continue;
+            }else{
+                $chamados[] = $registro; //adiciona o registro do arquivo ao array $chamados
+            }
+        }else{
+            $chamados[] = $registro; //adiciona o registro do arquivo ao array $chamados
+        }
     }
     // Fechar o arquivo aberto
     fclose($arquivo);
@@ -49,15 +62,8 @@
                     </div>
                     <div class="card-body">
                         <? foreach($chamados as $chamado){ ?>
-                        <?php 
+                        <?php
                             $chamado_dados = explode('#', $chamado);
-                            //
-                            if($_SESSION['perfil_id'] == 2){
-                                // Só ira exibir o chamado, se ele for criado pelo usuário
-                                if($_SESSION['id'] != $chamado_dados[0]){
-                                    continue;
-                                }
-                            }
                             if(count($chamado_dados) < 3){
                                 continue;
                             }
